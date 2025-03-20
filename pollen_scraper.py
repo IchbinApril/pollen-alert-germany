@@ -302,7 +302,7 @@ def format_email_content(data, language='en'):
     }
     
     # Use specified language text, default to English if not supported
-    text = titles.get(language, titles['en'])
+    text = titles.get(language, titles['zh'])
     
     # Check for errors
     error_message = ""
