@@ -3,7 +3,7 @@ name: Pollen Forecast Alert
 on:
   schedule:
     # Runs at 7:00 AM UTC every day (8-9 AM Central European Time depending on daylight saving)
-    - cron: '04 24 * * *'
+    - cron: '07 24 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
